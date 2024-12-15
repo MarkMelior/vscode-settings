@@ -1,39 +1,17 @@
 {
+	"printToConsole": {
+		"prefix": "cl",
+		"body": ["console.log('---$1', $1)"],
+		"scope": "typescript, typescriptreact, javascript, javascriptreact"
+	},
 	"export": {
 		"prefix": "e",
-		"body": ["export "],
+		"body": ["export const "],
 		"scope": "typescript, typescriptreact, javascript, javascriptreact"
 	},
 	"interface": {
 		"prefix": "i",
-		"body": ["interface ${TM_FILENAME_BASE}"],
-		"scope": "typescript, typescriptreact, javascript, javascriptreact"
-	},
-	"const": {
-		"scope": "typescript, typescriptreact, javascript, javascriptreact",
-		"prefix": "c",
-		"body": ["const $1 = $2"]
-	},
-	"printToConsole": {
-		"prefix": "cl",
-		"body": ["console.log($1)"],
-		"scope": "typescript, typescriptreact, javascript, javascriptreact"
-	},
-	"quotesCode": {
-		"prefix": "q",
-		"body": ["{`${$1}`}"],
-		"scope": "typescript, typescriptreact, javascript, javascriptreact"
-	},
-	"for": {
-		"scope": "typescript, typescriptreact, javascript, javascriptreact",
-		"prefix": "for",
-		"body": ["for (let i = 0; i < ${1:arr}; i++) {$2}"]
-	},
-	"anonymousFunction": {
-		"key": "anonymousFunction",
-		"prefix": "af",
-		"body": ["($1) => {$2}"],
-		"description": "Creates an anonymous function",
+		"body": ["interface I${TM_FILENAME_BASE} {}"],
 		"scope": "typescript, typescriptreact, javascript, javascriptreact"
 	},
 }

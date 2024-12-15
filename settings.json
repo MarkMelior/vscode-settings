@@ -1,154 +1,71 @@
 {
-	// * Custom Theme
-	"workbench.colorTheme": "Bearded Theme Anthracite",
-	"workbench.iconTheme": "material-icon-theme",
-	"material-icon-theme.activeIconPack": "react",
-	"editor.detectIndentation": false,
-	"editor.linkedEditing": true,
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.cursorBlinking": "expand", // мигающей курсор
-	"terminal.integrated.cursorBlinking": true, // мигающей курсор
-	// "editor.gotoLocation.multipleDefinitions": "goto", // сразу открыть при наведении +ctrl
-	"editor.padding.top": 15, // отступ сверху кода
-	"editor.glyphMargin": false, // debug points
-	"explorer.autoReveal": true, // always select opened file (like webstorm)
-	"explorer.compactFolders": false,
-	"editor.overviewRulerBorder": false,
-	// Colors like Windows 11
-	"workbench.colorCustomizations": {
-		"activityBar.background": "#111111",
-		"activityBar.border": "#ffffff05",
-		"sideBar.background": "#111111",
-		"tab.inactiveBackground": "#111111",
-		"tab.activeBorderTop": "#a2abb5",
-		"tab.unfocusedHoverBorder": "#a2abb5",
-		"sideBarSectionHeader.background": "#111111",
-		"editorGroupHeader.tabsBackground": "#111111",
-		"sideBar.border": "#ffffff05",
-		"sideBarSectionHeader.border": "#ffffff05",
-		"panel.background": "#191919",
-		"panel.border": "#ffffff05",
-		"editor.background": "#191919",
-		"statusBar.background": "#191919",
-		"statusBar.border": "#ffffff05",
-		"breadcrumb.background": "#191919",
-		"editorGutter.background": "#191919",
-		"tab.activeBackground": "#191919",
-		"tab.hoverBackground": "#191919",
-		"tab.border": "#ffffff05",
-		"terminal.background": "#191919",
-		"titleBar.activeBackground": "#0a0a0a",
-		"commandCenter.background": "#0a0a0a",
-		"commandCenter.activeBackground": "#191919",
-		"commandCenter.activeBorder": "#ffffff05",
-		"focusBorder": "#ffffff00"
-	},
-	// Подсветка выделенного блока кода
-	"editor.guides.bracketPairs": "active",
-	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.guides.bracketPairsHorizontal": false,
-	// Smooth scroll
-	"editor.smoothScrolling": true,
-	"workbench.list.smoothScrolling": true,
-	"terminal.integrated.smoothScrolling": true,
-	// Font
-	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-	"editor.fontFamily": "JetBrains Mono",
-	"editor.fontLigatures": true,
-	// exclude
-	"files.exclude": {
-		"**/.git": true,
-		"**/node_modules": true,
-		"**/.idea": true,
-		"**/.next": true
-		// "**/*.test.*": true // ! temporal
-	},
+  // * Настройки интерфейса
+  "workbench.colorTheme": "Bearded Theme Anthracite",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "editor.cursorBlinking": "expand",
+  "explorer.autoReveal": true,
+  "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.glyphMargin": false,
+  "workbench.activityBar.location": "top",
 
-	// * EMMET: bug fix JSX
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"typescript": "typescriptreact"
-	},
+  // * Цвета интерфейса как в Windows 11
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#111111",
+    "activityBar.border": "#ffffff05",
+    "sideBar.background": "#111111",
+    "tab.inactiveBackground": "#111111",
+    "tab.activeBorderTop": "#a2abb5",
+    "tab.unfocusedHoverBorder": "#a2abb5",
+    "sideBarSectionHeader.background": "#111111",
+    "editorGroupHeader.tabsBackground": "#111111",
+    "sideBar.border": "#ffffff05",
+    "sideBarSectionHeader.border": "#ffffff05",
+    "panel.background": "#191919",
+    "panel.border": "#ffffff05",
+    "editor.background": "#191919",
+    "statusBar.background": "#191919",
+    "statusBar.border": "#ffffff05",
+    "breadcrumb.background": "#191919",
+    "editorGutter.background": "#191919",
+    "tab.activeBackground": "#191919",
+    "tab.hoverBackground": "#191919",
+    "tab.border": "#ffffff05",
+    "terminal.background": "#191919",
+    "titleBar.activeBackground": "#0a0a0a",
+    "commandCenter.background": "#0a0a0a",
+    "commandCenter.activeBackground": "#191919",
+    "commandCenter.activeBorder": "#ffffff05",
+    "focusBorder": "#ffffff00",
+  },
 
-	// * i18n-ally : bug cyrillic fix
-	// "i18n-ally.regex.key": ".*?",
+  // * Плавный scroll
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
 
-	// * Extensions: Code Spell Checker
-	"cSpell.language": "en, ru",
+  // * Шрифт
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
 
-	// * Extensions: Linters
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"editor.insertSpaces": false,
-	"editor.tabSize": 2,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"scss.lint.unknownAtRules": "ignore",
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": "explicit",
-		"source.fixAll.stylelint": "explicit"
-		// 	"source.fixAll": "always"
-	},
-	"javascript.preferences.quoteStyle": "single",
-	"typescript.preferences.quoteStyle": "single",
-	"prettier.tabWidth": 2,
-	"prettier.useTabs": true,
-	"prettier.semi": true,
-	"prettier.singleQuote": true,
-	"prettier.trailingComma": "all",
-	"prettier.arrowParens": "always",
-	"prettier.jsxSingleQuote": false,
-	"prettier.bracketSpacing": true,
-	"editor.wordWrap": "on",
-	"prettier.printWidth": 80,
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.autopep8"
-	},
-	"[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma"
-	},
+  // * Скрытые папки
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.next": true,
+  },
 
-	// * FOLDER MANUAL SORT
-	// "folders": [
-	// 	{
-	// 		"name": "",
-	// 	},
-	// ],
+  // * Линтеры
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll": "explicit",
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
 
-	// todo --- OTHER ---
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
-	"liveServer.settings.donotShowInfoMsg": true,
-	"security.workspace.trust.untrustedFiles": "open",
-	"explorer.confirmDragAndDrop": false,
-	"explorer.confirmDelete": false,
-	"git.autofetch": true,
-	"terminal.integrated.env.windows": {},
-	"console-ninja.featureSet": "Community",
-	"bitoAI.codeCompletion.setAutoCompletionTriggerLogic": 250,
-	"workbench.startupEditor": "none",
-	"git.confirmSync": false,
-	"editor.minimap.enabled": false,
-	"console-ninja.showWhatsNew": false,
-	"markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
-	"markdown-preview-enhanced.previewTheme": "one-dark.css",
-	"codeium.enableConfig": {
-		"*": true,
-		"javascript": false
-	},
-	"workbench.activityBar.location": "top",
-	"stylelint.snippet": ["scss"],
-	"stylelint.validate": ["css", "less", "postcss", "scss"],
-	"inlang.userId": "cf4e99dd-80f9-4c16-9e18-4f7f1c15938e",
-	"window.commandCenter": false,
-	"workbench.layoutControl.enabled": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"window.titleBarStyle": "custom",
-	"vscode_vibrancy.opacity": -1,
-	"vscode_vibrancy.theme": "Default Light",
-	"workbench.sideBar.location": "right"
+  // * Настройки плагинов
+  "cSpell.language": "en, ru",
 }
