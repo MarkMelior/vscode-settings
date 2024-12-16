@@ -9,6 +9,8 @@
   "editor.guides.bracketPairs": "active",
   "editor.glyphMargin": false,
   "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "on",
 
   // * Цвета интерфейса как в Windows 11
   "workbench.colorCustomizations": {
@@ -68,4 +70,7 @@
 
   // * Настройки плагинов
   "cSpell.language": "en, ru",
+
+  // ? остальные настройки...
+  "git.confirmSync": false,
 }
