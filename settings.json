@@ -4,6 +4,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
   "explorer.autoReveal": true,
   "editor.minimap.enabled": false,
   "editor.guides.bracketPairs": "active",
@@ -11,6 +12,7 @@
   "workbench.activityBar.location": "top",
   "workbench.startupEditor": "none",
   "editor.wordWrap": "on",
+  "window.commandCenter": false,
 
   // * Цвета интерфейса как в Windows 11
   "workbench.colorCustomizations": {
@@ -64,13 +66,18 @@
     "source.fixAll.stylelint": "explicit",
     "source.fixAll": "explicit",
   },
+	"stylelint.validate": ["css", "postcss", "scss"],
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "explorer.confirmDelete": false,
 
   // * Настройки плагинов
   "cSpell.language": "en, ru",
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
 
   // ? остальные настройки...
   "git.confirmSync": false,
+  "codeium.enableCodeLens": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
