@@ -41,7 +41,7 @@
     "commandCenter.background": "#0a0a0a",
     "commandCenter.activeBackground": "#191919",
     "commandCenter.activeBorder": "#ffffff05",
-    "focusBorder": "#ffffff00",
+    "focusBorder": "#ffffff00"
   },
 
   // * Плавный scroll
@@ -58,15 +58,14 @@
   "files.exclude": {
     "**/.git": true,
     "**/node_modules": true,
-    "**/.next": true,
   },
 
   // * Линтеры
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit",
-    "source.fixAll": "explicit",
+    "source.fixAll": "explicit"
   },
-	"stylelint.validate": ["css", "postcss", "scss"],
+  "stylelint.validate": ["css", "postcss", "scss"],
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "explorer.confirmDelete": false,
@@ -80,4 +79,6 @@
   "codeium.enableCodeLens": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "scss.lint.unknownAtRules": "ignore"
 }
