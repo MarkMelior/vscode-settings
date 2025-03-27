@@ -80,5 +80,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
-  "scss.lint.unknownAtRules": "ignore"
+  "scss.lint.unknownAtRules": "ignore",
+  "terminal.integrated.scrollback": 30000,
+  "javascript.validate.enable": false,
 }
