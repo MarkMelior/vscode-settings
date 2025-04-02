@@ -1,4 +1,5 @@
-/History
-/globalStorage
-/workspaceStorage
-/.old
+History
+globalStorage
+workspaceStorage
+.old
+.DS_Store
