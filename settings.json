@@ -23,6 +23,7 @@
    * @description Для ноута 14.2" кайф, но вы настраивайте под себя.
    */
    "editor.fontSize": 13,
+  //  "terminal.integrated.fontSize": 13,
   //  "window.zoomLevel": 0.4,
 
   /**
@@ -30,7 +31,8 @@
    *
    * @example JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font
    */
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontWeight": "300",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontWeight": "300",
   "editor.fontLigatures": true,
