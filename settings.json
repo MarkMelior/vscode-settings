@@ -1,11 +1,7 @@
 {
-  // * Настройки интерфейса
-  "workbench.colorTheme": "Bearded Theme Anthracite",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line-thin",
-  "explorer.autoReveal": true,
+  /* 💻 Интерфейс */
+  "workbench.colorTheme": "Bearded Theme Vivid Black",
+  "workbench.iconTheme": "catppuccin-latte",
   "editor.minimap.enabled": false,
   "editor.guides.bracketPairs": "active",
   "editor.glyphMargin": false,
@@ -13,11 +9,24 @@
   "workbench.startupEditor": "none",
   "editor.wordWrap": "on",
   "window.commandCenter": false,
-  "editor.hover.enabled": true,
-  "terminal.integrated.scrollback": 30000,
   "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": { "*.svg": "default" },
+  "editor.hover.enabled": true,
+  "explorer.autoReveal": true,
+  "workbench.sideBar.location": "right",
+  "workbench.productIconTheme": "fluent-icons",
+  "material-icon-theme.activeIconPack": "react",
 
-  // // * Цвета интерфейса как в Windows 11
+  /* 🗡 Курсор */
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  /**
+   * 🎨 Цвета интерфейса как в Windows 11
+   * 
+   * @description Я уже не пользуюсь, но может вам пригодиться :)
+   */
   // "workbench.colorCustomizations": {
   //   "activityBar.background": "#111111",
   //   "activityBar.border": "#ffffff05",
@@ -47,23 +56,24 @@
   //   "focusBorder": "#ffffff00"
   // },
 
-  // * Плавный scroll
+  /* 💫 Плавный scroll */
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
 
-  // * Шрифт
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontFamily": "JetBrains Mono",
+  /* 🅰️ Шрифт */
+  /* JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font */
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontWeight": "300",
   "editor.fontLigatures": true,
 
-  // * Скрытые папки
+  /* 📂 Скрытые папки */
   "files.exclude": {
     "**/.git": true,
-    "**/node_modules": true,
   },
 
-  // * Линтеры
+  /* 🍒 Линтеры и стиль кода */
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit",
     "source.fixAll": "explicit"
@@ -72,16 +82,27 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "explorer.confirmDelete": false,
+  "scss.lint.unknownAtRules": "ignore",
 
-  // * Настройки плагинов
+  /* 🧩 Настройки плагинов */
   "cSpell.language": "en, ru",
   "markdown-preview-enhanced.previewTheme": "one-dark.css",
 
-  // ? остальные настройки...
-  "git.confirmSync": false,
-  "codeium.enableCodeLens": false,
+  /* ⤵️ Обновлять импорты при перемещении файлов */
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "scss.lint.unknownAtRules": "ignore",
+
+  /**
+   * ? остальные настройки...
+   *
+   * @description Можете спокойно удалять. Они нужны только мне. Я и сам не знаю за что они отвечают 😅
+   */
+  "git.confirmSync": false,
+  "codeium.enableCodeLens": false,
   "javascript.validate.enable": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "codesnap.showWindowControls": false,
 }

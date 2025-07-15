@@ -1,11 +1,11 @@
 {
 	"className": {
 		"prefix": "cn",
-		"body": ["className={clsx(styles.${1:${TM_FILENAME_BASE}}, className)}"],
+		"body": ["className={cn(styles.${1:${TM_FILENAME_BASE}}, className)}"],
 		"scope": "typescript, typescriptreact, javascript, javascriptreact"
 	},
 	"Export index": {
-		"prefix": "ea",
+		"prefix": "ef",
 		"body": [
 			"export * from './${1:${TM_FOLDERNAME}}';"
 		],
@@ -18,9 +18,4 @@
 		],
 		"scope": "typescript, typescriptreact, javascript, javascriptreact"
 	},
-	// "i18n": {
-	// 	"prefix": "t",
-	// 	"body": ["{t('${1:Привет мир!}')}"],
-	// 	"scope": "typescript, typescriptreact, javascript, javascriptreact"
-	// }
 }
