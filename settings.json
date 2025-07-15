@@ -1,7 +1,7 @@
 {
   /* 💻 Интерфейс */
   "workbench.colorTheme": "Bearded Theme Vivid Black",
-  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.iconTheme": "catppuccin-perfect-dark",
   "editor.minimap.enabled": false,
   "editor.guides.bracketPairs": "active",
   "editor.glyphMargin": false,
@@ -16,19 +16,29 @@
   "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "fluent-icons",
   "material-icon-theme.activeIconPack": "react",
-  "window.zoomLevel": 0.4, // Для ноута 14.2" кайф
+
+  /**
+   * ↔️ Размеры интерфейса
+   *
+   * @description Для ноута 14.2" кайф, но вы настраивайте под себя.
+   */
+   "editor.fontSize": 13,
+  //  "window.zoomLevel": 0.4,
+
+  /**
+   * 🅰️ Шрифт
+   *
+   * @example JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font
+   */
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
 
   /* 🗡 Курсор */
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line-thin",
   "editor.cursorSmoothCaretAnimation": "on",
-
-  /* 🅰️ Шрифт */
-  /* JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font */
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontFamily": "FiraCode Nerd Font",
-  "editor.fontWeight": "300",
-  "editor.fontLigatures": true,
 
   /* 💫 Плавный scroll */
   "editor.smoothScrolling": true,
