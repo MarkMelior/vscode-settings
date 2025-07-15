@@ -16,11 +16,48 @@
   "workbench.sideBar.location": "right",
   "workbench.productIconTheme": "fluent-icons",
   "material-icon-theme.activeIconPack": "react",
+  "window.zoomLevel": 0.4, // Для ноута 14.2" кайф
 
   /* 🗡 Курсор */
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line-thin",
   "editor.cursorSmoothCaretAnimation": "on",
+
+  /* 🅰️ Шрифт */
+  /* JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font */
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+
+  /* 💫 Плавный scroll */
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  /* 📂 Скрытые папки */
+  "files.exclude": {
+    "**/.git": true,
+  },
+
+  /* 🍒 Линтеры и стиль кода */
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "stylelint.validate": ["css", "postcss", "scss"],
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "scss.lint.unknownAtRules": "ignore",
+
+  /* 🧩 Настройки плагинов */
+  "cSpell.language": "en, ru",
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+
+  /* ⤵️ Обновлять импорты при перемещении файлов */
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
   /**
    * 🎨 Цвета интерфейса как в Windows 11
@@ -55,42 +92,6 @@
   //   "commandCenter.activeBorder": "#ffffff05",
   //   "focusBorder": "#ffffff00"
   // },
-
-  /* 💫 Плавный scroll */
-  "editor.smoothScrolling": true,
-  "workbench.list.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-
-  /* 🅰️ Шрифт */
-  /* JetBrainsMono Nerd Font :: GeistMono Nerd Font :: FiraCode Nerd Font */
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontFamily": "FiraCode Nerd Font",
-  "editor.fontWeight": "300",
-  "editor.fontLigatures": true,
-
-  /* 📂 Скрытые папки */
-  "files.exclude": {
-    "**/.git": true,
-  },
-
-  /* 🍒 Линтеры и стиль кода */
-  "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": "explicit",
-    "source.fixAll": "explicit"
-  },
-  "stylelint.validate": ["css", "postcss", "scss"],
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
-  "explorer.confirmDelete": false,
-  "scss.lint.unknownAtRules": "ignore",
-
-  /* 🧩 Настройки плагинов */
-  "cSpell.language": "en, ru",
-  "markdown-preview-enhanced.previewTheme": "one-dark.css",
-
-  /* ⤵️ Обновлять импорты при перемещении файлов */
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
 
   /**
    * ? остальные настройки...
