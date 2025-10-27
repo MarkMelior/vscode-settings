@@ -14,4 +14,13 @@
 		"body": ["interface I${TM_FILENAME_BASE} {}"],
 		"scope": "typescript, typescriptreact, javascript, javascriptreact"
 	},
+  "Wrap selection in jsdoc block": {
+    "prefix": "cc",
+    "body": [
+      "/**",
+      " * ${TM_SELECTED_TEXT/(^|\\n)/$1 * /g}",
+      " */"
+    ],
+    "description": "Wrap selected text in /** */ block comment"
+  }
 }

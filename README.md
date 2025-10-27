@@ -15,22 +15,26 @@
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Backticks](https://marketplace.visualstudio.com/items?itemName=fractalbrew.backticks) - `${}`
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Camel Case Navigation](https://marketplace.visualstudio.com/items?itemName=maptz.camelcasenavigation)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 - [Windsurf Plugin](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+- [Camel Case Navigation](https://marketplace.visualstudio.com/items?itemName=maptz.camelcasenavigation)
 
 #### Визуал
 
+Темы:
+- [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme)
+- [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme)
+Иконки:
+- [Catppuccin Perfect Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
+- [Charmed Icons](https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons)
+- [Flow Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons)
+- [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
+Другие:
 - [Align Bicep](https://marketplace.visualstudio.com/items?itemName=microsoft-dciborow.align-bicep) - визуальное выравнивание кода
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) `&&` [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Catppuccin Perfect Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
-- [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
-- [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 #### Специфичные для проекта
 

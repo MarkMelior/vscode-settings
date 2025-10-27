@@ -1,21 +1,16 @@
 {
-  /* 💻 Интерфейс */
-  "workbench.colorTheme": "Palenight Italic",
-  "workbench.iconTheme": "catppuccin-perfect-dark",
-  "editor.minimap.enabled": false,
-  "editor.guides.bracketPairs": "active",
-  "editor.glyphMargin": false,
-  "workbench.activityBar.location": "top",
-  "workbench.startupEditor": "none",
-  "editor.wordWrap": "on",
-  "window.commandCenter": false,
-  "explorer.confirmDragAndDrop": false,
-  "workbench.editorAssociations": { "*.svg": "default" },
-  "editor.hover.enabled": true,
-  "explorer.autoReveal": true,
-  "workbench.sideBar.location": "right",
+  // Palenight Italic :: Bearded Theme Monokai Metallian :: Bearded Theme HC Ebony
+  "workbench.colorTheme": "Bearded Themanopia (Experimental)",
+  "workbench.iconTheme": "flow-dark",
   "workbench.productIconTheme": "fluent-icons",
-  "material-icon-theme.activeIconPack": "react",
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "window.commandCenter": false,
+  "workbench.startupEditor": "none",
+  "editor.guides.bracketPairs": "active",
+  "workbench.activityBar.location": "top",
+  "editor.wordWrap": "on",
+  "explorer.autoReveal": true,
 
   /**
    * ↔️ Размеры интерфейса
@@ -33,16 +28,24 @@
    */
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontWeight": "300",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontWeight": "200",
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontWeight": "300",
   "editor.fontLigatures": true,
 
+  /* 🎨 Настройка цветов */
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff4063", // Цвет курсора
+    /* Цвета для темы: Palenight  */
+    // "editor.background": "#25293A",
+    // "titleBar.activeBackground": "#1f2231",
+    // "sideBar.background": "#1f2231",
+    // "terminal.background": "#191c28"
+  },
+
   /* 🗡 Курсор */
-  "editor.cursorBlinking": "blink", // expand :: blink
-  "editor.cursorStyle": "block",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.colorCustomizations": { "editorCursor.foreground": "#ff4080" },
-  // "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "expand", // expand :: blink
+  "editor.cursorStyle": "line", // block :: line-thin
+  // "editor.cursorSmoothCaretAnimation": "on",
 
   /* 💫 Плавный scroll */
   "editor.smoothScrolling": true,
@@ -54,21 +57,6 @@
     "**/.git": true,
   },
 
-  /* 🍒 Линтеры и стиль кода */
-  "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": "explicit",
-    "source.fixAll": "explicit"
-  },
-  "stylelint.validate": ["css", "postcss", "scss"],
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
-  "explorer.confirmDelete": false,
-  "scss.lint.unknownAtRules": "ignore",
-
-  /* 🧩 Настройки плагинов */
-  "cSpell.language": "en, ru",
-  "markdown-preview-enhanced.previewTheme": "one-dark.css",
-
   /* ⤵️ Обновлять импорты при перемещении файлов */
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -78,7 +66,7 @@
   "javascript.inlayHints.parameterNames.enabled": "all",
 
   /**
-   * 🎨 Цвета интерфейса как в Windows 11
+   * Цвета интерфейса как в Windows 11
    * 
    * @description Я уже не пользуюсь, но может вам пригодиться :)
    */
@@ -111,15 +99,53 @@
   //   "focusBorder": "#ffffff00"
   // },
 
+  /* 🍒 Линтеры и стиль кода */
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "stylelint.validate": ["css", "postcss", "scss"],
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "scss.lint.unknownAtRules": "ignore",
+  // "eslint.options": {
+  //   "overrideConfig": {
+  //     "overrides": [
+  //       {
+  //         "files": ["*.js", "*.jsx"],
+  //         "rules": {
+  //           "no-param-reassign": "off",
+  //           "security/detect-object-injection": "off",
+  //           "max-len": "off"
+  //         },
+  //         "parserOptions": {
+  //            "project": null
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
+  // "eslint.workingDirectories": [{ "mode": "auto" }],
+  // "eslint.useESLintClass": true,
+
+  /* 🧩 Настройки плагинов */
+  "cSpell.language": "en, ru",
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+
   /**
    * ? остальные настройки...
    *
    * @description Можете спокойно удалять. Они нужны только мне. Я и сам не знаю за что они отвечают 😅
    */
+  "material-icon-theme.activeIconPack": "react",
+  "workbench.editorAssociations": { "*.svg": "default" },
+  "editor.hover.enabled": true,
+  "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
   "codeium.enableCodeLens": false,
   "javascript.validate.enable": false,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
