@@ -22,5 +22,14 @@
       " */"
     ],
     "description": "Wrap selected text in /** */ block comment"
-  }
+  },
+	"Wrap selection in runInAction": {
+		"prefix": "ra",
+		"body": [
+			"runInAction(() => {",
+			"\t${TM_SELECTED_TEXT}",
+			"})"
+		],
+		"description": "Wrap selected text in runInAction(() => { })"
+	},
 }

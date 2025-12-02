@@ -20,7 +20,11 @@
 - [Windsurf Plugin](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 - [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-- [Camel Case Navigation](https://marketplace.visualstudio.com/items?itemName=maptz.camelcasenavigation)
+
+Git:
+- [Git commit message helper](https://marketplace.visualstudio.com/items?itemName=D3skdev.git-commit-message-helper)
+- [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 #### Визуал
 
@@ -28,10 +32,8 @@
 - [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme)
 - [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme)
 Иконки:
-- [Catppuccin Perfect Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
-- [Charmed Icons](https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons)
-- [Flow Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons)
 - [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
+- [Flow Icons](https://marketplace.visualstudio.com/items?itemName=thang-nm.flow-icons)
 Другие:
 - [Align Bicep](https://marketplace.visualstudio.com/items?itemName=microsoft-dciborow.align-bicep) - визуальное выравнивание кода
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)

@@ -1,6 +1,5 @@
 {
-  // Palenight Italic :: Bearded Theme Monokai Metallian :: Bearded Theme HC Ebony
-  "workbench.colorTheme": "Bearded Themanopia (Experimental)",
+  "workbench.colorTheme": "Bearded Themanopia (Experimental)", // Palenight Italic :: Bearded Theme Monokai Metallian :: Bearded Theme HC Ebony
   "workbench.iconTheme": "flow-dark",
   "workbench.productIconTheme": "fluent-icons",
   "editor.minimap.enabled": false,
@@ -35,6 +34,7 @@
   /* 🎨 Настройка цветов */
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ff4063", // Цвет курсора
+    "gitlens.trailingLineForegroundColor": "#33394c", // Цвет текста GitLens
     /* Цвета для темы: Palenight  */
     // "editor.background": "#25293A",
     // "titleBar.activeBackground": "#1f2231",
@@ -64,6 +64,61 @@
   /* 🎹 Отображение инлайн подсказок */
   "typescript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.enabled": "all",
+
+  /* 🍒 Линтеры и стиль кода */
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "stylelint.validate": ["css", "postcss", "scss"],
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "scss.lint.unknownAtRules": "ignore",
+
+  /* 🌵 GIT */
+  "git.confirmSync": false,
+  "gitlab.customQueries": [
+    {
+      "name": "Нужно ревью",
+      "type": "merge_requests",
+      "reviewer": "<current_user>",
+      "state": "opened",
+      "noItemText": "No merge requests for you to review."
+    },
+    {
+      "name": "Мои созданные МР",
+      "type": "merge_requests",
+      "scope": "created_by_me",
+      "state": "opened",
+      "noItemText": "No merge requests created by you."
+    },
+    {
+      "name": "Все МР (opened)",
+      "type": "merge_requests",
+      "scope": "all",
+      "state": "opened",
+      "noItemText": "The project has no merge requests"
+    },
+    {
+      "name": "Все МР (closed)",
+      "type": "merge_requests",
+      "scope": "all",
+      "state": "closed",
+      "noItemText": "The project has no closed merge requests."
+    },
+    {
+      "name": "Все МР (merged)",
+      "type": "merge_requests",
+      "scope": "all",
+      "state": "merged",
+      "noItemText": "The project has no merged merge requests."
+    }
+  ],
+  "gitPrefix.replacement #1": "$1 | ",
+  "gitPrefix.replacement #3": "$1 | Fixed ",
+  "gitPrefix.replacement #2": "$1 | Updated ",
+  "gitPrefix.replacement #4": "$1 | Removed ",
 
   /**
    * Цвета интерфейса как в Windows 11
@@ -99,58 +154,26 @@
   //   "focusBorder": "#ffffff00"
   // },
 
-  /* 🍒 Линтеры и стиль кода */
-  "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": "explicit",
-    "source.fixAll": "explicit"
-  },
-  "stylelint.validate": ["css", "postcss", "scss"],
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
-  "explorer.confirmDelete": false,
-  "scss.lint.unknownAtRules": "ignore",
-  // "eslint.options": {
-  //   "overrideConfig": {
-  //     "overrides": [
-  //       {
-  //         "files": ["*.js", "*.jsx"],
-  //         "rules": {
-  //           "no-param-reassign": "off",
-  //           "security/detect-object-injection": "off",
-  //           "max-len": "off"
-  //         },
-  //         "parserOptions": {
-  //            "project": null
-  //         }
-  //       }
-  //     ]
-  //   }
-  // },
-  // "eslint.workingDirectories": [{ "mode": "auto" }],
-  // "eslint.useESLintClass": true,
-
   /* 🧩 Настройки плагинов */
   "cSpell.language": "en, ru",
   "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "align-bicep.disallowed-language-ids": [
+    "markdown"
+  ],
 
   /**
    * ? остальные настройки...
    *
    * @description Можете спокойно удалять. Они нужны только мне. Я и сам не знаю за что они отвечают 😅
    */
-  "material-icon-theme.activeIconPack": "react",
-  "workbench.editorAssociations": { "*.svg": "default" },
-  "editor.hover.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "git.confirmSync": false,
-  "codeium.enableCodeLens": false,
   "javascript.validate.enable": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
+  "explorer.confirmDragAndDrop": false,
   "codesnap.showWindowControls": false,
-  "align-bicep.disallowed-language-ids": [
-    "markdown"
-  ],
+  "editor.hover.enabled": true,
+  "codeium.enableCodeLens": false,
+  "workbench.editorAssociations": { "*.svg": "default" },
 }
