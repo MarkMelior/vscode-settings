@@ -1,0 +1,13 @@
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export STARSHIP_CONFIG="/Users/melior/Library/Application Support/Code/User/terminal/starship.toml"
+eval "$(starship init zsh)"
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+export PATH=$PATH:$HOME/Library/Android/sdk/emulator
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
+
+# bun completions
+[ -s "/Users/melior/.bun/_bun" ] && source "/Users/melior/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
